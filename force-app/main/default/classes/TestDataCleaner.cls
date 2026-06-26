@@ -58,13 +58,13 @@ public with sharing class TestDataCleaner {
 
                 if (!records.isEmpty()) {
                     Database.delete(records, false);
-                    System.debug('â Deleted ' + records.size() + ' records from ' + objectName);
+                    System.debug('Ã¢ÂÂ Deleted ' + records.size() + ' records from ' + objectName);
                 } else {
-                    System.debug('â¹ï¸ No records found for ' + objectName);
+                    System.debug('Ã¢ÂÂ¹Ã¯Â¸Â No records found for ' + objectName);
                 }
 
             } catch (Exception e) {
-                System.debug('â ERROR deletingggg ' + objectName + ': ' + e.getMessage());
+                System.debug('Ã¢ÂÂ ERROR deletingggрпрпрпg ' + objectName + ': ' + e.getMessage());
             }
         }
     }
