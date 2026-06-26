@@ -64,7 +64,7 @@ public with sharing class TestDataCleaner {
                 }
 
             } catch (Exception e) {
-                System.debug('Ã¢ÂÂ ERROR deletinggggggg' + objectName + ': ' + e.getMessage());
+                System.debug('Ã¢ÂÂ ERROR deletinggggggg just to be sure' + objectName + ': ' + e.getMessage());
             }
         }
     }
